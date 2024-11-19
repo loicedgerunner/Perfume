@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* Header Section */
+        #intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #intro ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        #intro ul li {
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #333;
+        }
+
+        #intro ul li:hover {
+            color: #c19a6b;
+        }
+
+        #intro img {
+            height: 50px;
+        }
+
+        /* Hero Section */
+        #hero {
+            background-color: #000;
+            color: #fff;
+            
+            padding: 50px 10%;
+            position: relative;
+        }
+
+        #hero h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+            padding-left: 2%;
+        }
+
+        #hero p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        #hero button {
+            background-color: #c19a6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #hero button:hover {
+            background-color: #a87c54;
+        }
+        span{
+            color: #a87c54;
+        }
+        #hero img {
+            position: absolute;
+            top: 50%;
+            right: 0.5%;
+            height: 240px;
+            transform: translateY(-50%);
+        }
+
+        /* Product Section */
+        .img {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 30px 10%;
+            gap: 20px;
+        }
+
+        .img img {
+            width: 23%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .collection-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 10%;
+            color: #c19a6b;
+            text-align: left;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .benefit {
+            text-align: center;
+            flex: 1;
+        }
+
+        .benefit img {
+            width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .benefit p {
+            font-size: 14px;
+        }
+
+        .benefit strong {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Footer Section */
+        #outro {
+            position: relative;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 10%;
+        }
+
+        #outro img {
+            position: absolute;
+            top: 0px;
+            left: 2vw;
+            height: 50px;
+            width: 50px;
+            margin-bottom: 15px;
+        }
+
+        #last{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #outro p {
+            font-size: 14px;
+            margin: 5px 0;
+            padding-right: 15%;        }
+
+        #outro i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        #outro i:hover {
+            color: #c19a6b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="intro">
+        <ul>
+            <li>Home</li>
+            <li>Catalog</li>
+            <li>Page</li>
+        </ul>
+        <img src="img/Logo.jpeg" alt="logo">
+    </div>
+
+    <!-- Hero Section -->
+    <div id="hero">
+        <p>Top of the class</p>
+        <h1>A PERFUME FOR EVERY <br>JOURNEY <SPan> Every Occasion</SPan></h1>
+        <button>Shop Now</button>
+        <img src="C:\E-Com\img\OIP (3).jpeg" alt="Hero Perfume">
+    </div>
+
+    <!-- Products -->
+    <div class="img">
+        <img src="img/proxy-image (19).jpeg" alt="perfume">
+        <img src="img/OIP.jpeg" alt="perfume">
+        <img src="img/proxy-image (21).jpeg" alt="perfume">
+        <img src="img/proxy-image (23).jpeg" alt="perfume">
+    </div>
+
+    <p class="collection-title">Collection Smart</p>
+    <div class="img">
+        <img src="img/proxy-image (26).jpeg" alt="perfume">
+        <img src="img/proxy-image (25).jpeg" alt="perfume">
+        <img src="img/proxy-image (24).jpeg" alt="perfume">
+        <img src="img/proxy-image (27).jpeg" alt="perfume">
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="benefits">
+        <div class="benefit">
+            <img src="img/proxy-image (30).jpeg" alt="money return">
+            <p><strong>MONEY RETURN</strong>30 days for free return</p>
+        </div>
+        <div class="benefit">
+            <img src="img/proxy-image (29).jpeg" alt="online support">
+            <p><strong>ONLINE SUPPORT</strong>Support 24 hours a day</p>
+        </div>
+        <div class="benefit">
+            <img src="img/proxy-image (28).jpeg" alt="free shipping">
+            <p><strong>FREE SHIPPING</strong>Free shipping all orders</p>
+        </div>
+    </div>
+
+
+    <div id="outro">
+        <img src="img/Logo.jpeg" alt=""><br><br><br>
+        <div id="last"><i class="fa-solid fa-envelope"></i>
+            <p>parfum@gmail.com</p>
+            <i class="fa-solid fa-phone"></i> 
+            <p>0001 65674 786543</p> 
+            <i class="fa-brands fa-instagram"></i>
+            <p>Parfume956</p>
+        </div>
+        
+    </div>
+</body>
+</html>
